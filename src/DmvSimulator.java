@@ -4,8 +4,8 @@ public class DmvSimulator {
 	public static void main(String []args) {
 		Random random = new Random();
 		int randomNumber = random.nextInt(100);
-		//int chance = random.nextInt(100);
-		int chance = 1;
+		int chance = random.nextInt(100);
+		
 		Boolean call = false; 
 		int numb = 1;
 		System.out.println("welcome to the DMV!");
@@ -19,7 +19,7 @@ public class DmvSimulator {
 					System.out.println("You have all required paperwork!");
 				}
 				else {
-					System.out.println("You dont have the required paperwork");
+					System.out.println("You dont have the required paperwork, HAHAHAHA");
 				}
 			}
 			else {
